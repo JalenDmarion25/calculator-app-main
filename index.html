@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Frontend Mentor | Calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h3>calc</h3>
+    <div class="header">
+      <div class="theme">
+        
+        <span class="theme_label">Theme</span>
+        <span>1 2 3</span>
+        <form class="theme-selecter" action="">
+          <input type="radio" id="theme-one" name="theme-select" value="one" checked>
+          <input type="radio" id="theme-two"  name="theme-select" value="two">
+          <input type="radio" id="theme-three" name="theme-select" value="three">
+        </form>
+      </div>
+    </div>
+    <div class="screen"><input type="text" id="screen" readonly placeholder="0"></div>
+
+    <div class="interface">
+      <button class="number" id="seven">7</button>
+      <button class="number" id="eight">8</button>
+      <button class="number" id="nine">9</button>
+      <button class="operation" id="del">DEL</button>
+      <button class="number" id="four">4</button>
+      <button class="number" id="five">5</button>
+      <button class="number" id="six">6</button>
+      <button class="operation" id="plus">+</button>
+      <button class="number" id="one">1</button>
+      <button class="number" id="two">2</button>
+      <button class="number" id="three">3</button>
+      <button class="operation" id="minus">-</button>
+      <button class="operation" id="decimal">.</button>
+      <button class="number" id="zero">0</button>
+      <button class="operation" id="div">/</button>
+      <button class="operation" id="multi">x</button>
+      <button class="operation" id="reset">Reset</button>
+      <button class="operation" id="equal">=</button>
+    </div>
+  </div>
+  <script src="/js/script.js"></script>
+</body>
+</html>
